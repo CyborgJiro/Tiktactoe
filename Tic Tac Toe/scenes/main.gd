@@ -32,7 +32,7 @@ func _process(delta):
 func _input(event):
 	if event is InputEventMouseButton:
 		if event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
-			#check if mouse is on the game board
+			#check if mouse is on the game board, if it is you a bitch
 			if event.position.x < board_size and event.position.y < board_size:
 				#convert mouse position into grid location
 				grid_pos = Vector2(event.position / cell_size)
