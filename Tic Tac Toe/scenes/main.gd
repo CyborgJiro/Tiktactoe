@@ -16,7 +16,7 @@ var col_sum : int
 var diagonal1_sum : int
 var diagonal2_sum : int
 
-# Called when the node enters the scene tree for the first time.
+# Called when the node enters the scene tree for the first time. FROGGGGSSS
 func _ready():
 	board_size = $Board.texture.get_width()
 	#divide board size by 3 to get the size of the individual cell. 
